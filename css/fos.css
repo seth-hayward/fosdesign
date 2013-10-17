@@ -1,0 +1,98 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+/* Set widths on the navbar form inputs since otherwise they're 100% wide */
+.navbar-form input[type="text"],
+.navbar-form input[type="password"] {
+  width: 180px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+      
+h3.section_divider {
+padding-top: 40px;
+border-bottom: 1px dashed #bfbfbf;
+clear: both;
+}
+      
+.portfolio_example {
+margin-top: 20px;
+border-bottom: 1px dotted #999;
+}
+
+
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  width: 450px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+div#carousel-example-generic
+{
+    width: 400px;
+}
+
+.carousel-control.right, .carousel-control.left
+{
+    background-image: none;
+}
+
+.rounded-corners {
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+-khtml-border-radius: 25px;
+border-radius: 25px;
+}
+
+.container-narrow > hr {
+margin: 30px 0;
+}
+
+.jumbotron
+{
+  background-color: #fff;
+  font-size: 10px;
+}
+
+    .jumbotron h3
+    {
+        text-align: center;
+    }
+
+.carousel-control
+{
+  color: #428bca;
+  opacity: 1;
+}
+
+
+.carousel-indicators .active
+{
+    background-color: #428bca;
+}
+
+.carousel-indicators li
+{
+    border: 1px solid #428bca;
+}
+
+.portfolio_image
+{
+    width: 400px;
+}
