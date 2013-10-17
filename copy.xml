@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+        <SolutionFile>fos design</SolutionFile>
+    </PropertyGroup>
+
+    <Target Name="Build">
+
+      <!-- Copy cloned repo to the IIS directory -->
+
+      <ItemGroup>
+          <_CopyItems Include="$(MSBuildThisFileDirectory)\**\*.*" />
+      </ItemGroup>
+      <Copy
+          SourceFiles="@(_CopyItems)"
+          DestinationFolder="C:\inetpub\vhosts\fosdesign.co\httpdocs\%(RecursiveDir)"
+          />    
+    
+    </Target>
+
+</Project>
