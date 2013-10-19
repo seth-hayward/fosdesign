@@ -1,6 +1,6 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 200px;
 }
 
@@ -35,7 +35,7 @@ border-bottom: 1px dotted #999;
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
-  width: 450px;
+  width: 600px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
@@ -45,7 +45,7 @@ border-bottom: 1px dotted #999;
 
 div#carousel-example-generic
 {
-    width: 400px;
+    width: 600px;
 }
 
 .carousel-control.right, .carousel-control.left
@@ -77,22 +77,22 @@ margin: 30px 0;
 
 .carousel-control
 {
-  color: #428bca;
+  color: black;
   opacity: 1;
 }
 
 
 .carousel-indicators .active
 {
-    background-color: #428bca;
+    background-color: black;
 }
 
 .carousel-indicators li
 {
-    border: 1px solid #428bca;
+    border: 1px solid white;
 }
 
 .portfolio_image
 {
-    width: 400px;
+    width: 600px;
 }
